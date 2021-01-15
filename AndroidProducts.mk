@@ -20,4 +20,6 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     gzosp_coral-userdebug \
-    gzosp_flame-userdebug
+    gzosp_flame-userdebug \
+    gzosp_coral-user \
+    gzosp_flame-user
