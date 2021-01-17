@@ -83,6 +83,7 @@ PRODUCT_PACKAGES += \
     libtinycompress \
     libtinyxml \
     libvndfwk_detect_jni.qti.vendor \
+    libwifi-hal:64 \
     libwifi-hal-qcom \
     nos_app_avb:64 \
     nos_app_identity:64 \
@@ -113,6 +114,7 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.10.vendor \
     vendor.display.config@1.11.vendor \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
+    vendor.qti.hardware.capabilityconfigstore@1.0.vendor \
     vendor.qti.hardware.cryptfshw@1.0 \
     vendor.qti.hardware.cryptfshw@1.0.vendor \
     vendor.qti.hardware.display.allocator@3.0.vendor:64 \
@@ -120,3 +122,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapper@3.0.vendor \
     vendor.qti.hardware.display.mapperextensions@1.0.vendor \
     vendor.qti.hardware.display.mapperextensions@1.1.vendor
+
+# Last stock security patch levels
+PLATFORM_SECURITY_PATCH := 2021-01-05
+VENDOR_SECURITY_PATCH := "2021-01-05"
